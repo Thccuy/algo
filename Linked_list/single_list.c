@@ -41,6 +41,7 @@ void del(Linklist* head, int sub_number)
 	head->next=head->next->next;
 	free(temp);
 }
+
 int main()
 {
 	Linklist* head = (Linklist*)malloc(sizeof(Linklist));
